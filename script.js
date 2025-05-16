@@ -32,15 +32,15 @@ async function getPokemonData(pokemonId) {
     };
 
     // Log the formatted object to the console
-    // console.log({
-    //   name: finalData.name,
-    //   height: finalData.height,
-    //   weight: finalData.weight,
-    //   types: finalData.types,
-    //   flavor_text: finalData.flavor_text,
-    //   habitat: finalData.habitat,
-    //   isLegendary: finalData.isLegendary
-    // });
+    console.log({
+      name: finalData.name,
+      height: finalData.height,
+      weight: finalData.weight,
+      types: finalData.types,
+      flavor_text: finalData.flavor_text,
+      habitat: finalData.habitat,
+      isLegendary: finalData.isLegendary
+    });
 
     return finalData;
 
